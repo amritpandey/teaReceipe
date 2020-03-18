@@ -1,0 +1,40 @@
+/* html elements here */
+body{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #084177;
+}
+h1{
+  font-size: 300%;
+}
+h1,h2{
+  color:orange;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+img{
+  width:100%;
+}
+footer{
+  background-color: orange;
+  color: white;
+  margin-top: 70px;
+}
+footer p{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* CSS STYLES HERE*/
+#container{
+  width: 60%;
+  margin:auto;
+}
+
+@media screen and (max-width:768px){
+ #container{
+    width: 90%;
+    }
+  h1 {
+    font-size: 200%;
+  }
+ }
